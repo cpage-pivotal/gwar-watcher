@@ -1,0 +1,104 @@
+[
+    {
+        "actionId": "722b4e57-7a92-423f-8ff2-9b20faa4879d",
+        "eventId": 16,
+        "ipAddress": "165.225.216.160",
+        "sourcePageTitle": "Bon Chef AeroGlove Touchless Glove Dispenser White 10-1/2\"x16\" | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/product/9860259",
+        "timestamp": "2020-06-29T22:28:56.252Z",
+        "category": "PDP",
+        "action": "Product Video",
+        "label": "https://www.google.com",
+        "value": "played",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO040: Idaho",
+        "role": "Corporate",
+        "accountNumber": "#S1D10",
+        "userEmailAddress": "melton.julie@idaho.sysco.com",
+        "userId": 663733,
+        "oboUserId": 0,
+        "payload": {
+            "videoUrl": "https://player.vimeo.com/video/416077360?autoplay=true"
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1280x720",
+        "browserViewport": "1280x529",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-29T22:28:48.8645054Z"
+        }
+    },
+    {
+        "actionId": "722b4e57-7a92-423f-8ff2-9b20faa4879d",
+        "eventId": 16,
+        "ipAddress": "165.225.216.160",
+        "sourcePageTitle": "Bon Chef AeroGlove Touchless Glove Dispenser White 10-1/2\"x16\" | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/product/9860259",
+        "timestamp": "2020-06-29T22:28:56.252Z",
+        "category": "PDP",
+        "action": "Product Video",
+        "label": "https://player.vimeo.com/video/416077360?autoplay=true",
+        "value": "viewed",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO040: Idaho",
+        "role": "Corporate",
+        "accountNumber": "#S1D10",
+        "userEmailAddress": "melton.julie@idaho.sysco.com",
+        "userId": 663733,
+        "oboUserId": 0,
+        "payload": {
+            "videoUrl": "https://player.vimeo.com/video/416077360?autoplay=true"
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1280x720",
+        "browserViewport": "1280x529",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-29T22:28:48.8645054Z"
+        }
+    },
+    {
+        "actionId": "722b4e57-7a92-423f-8ff2-9b20faa4879d",
+        "eventId": 16,
+        "ipAddress": "165.225.216.160",
+        "sourcePageTitle": "Bon Chef AeroGlove Touchless Glove Dispenser White 10-1/2\"x16\" | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/product/9860259",
+        "timestamp": "2020-06-29T22:28:56.252Z",
+        "category": "MA Home",
+        "action": "Product Video",
+        "label": "https://player.vimeo.com/video/416077360?autoplay=true",
+        "value": "played",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO040: Idaho",
+        "role": "Corporate",
+        "accountNumber": "#S1D10",
+        "userEmailAddress": "melton.julie@idaho.sysco.com",
+        "userId": 663733,
+        "oboUserId": 0,
+        "payload": {
+            "videoUrl": "https://player.vimeo.com/video/416077360?autoplay=true"
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1280x720",
+        "browserViewport": "1280x529",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-29T22:28:48.8645054Z"
+        }
+    }
+]

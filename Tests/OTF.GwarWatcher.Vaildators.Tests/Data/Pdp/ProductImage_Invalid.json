@@ -1,0 +1,104 @@
+[
+    {
+        "actionId": "d1b3662f-8420-4346-a22f-7e9142c5d472",
+        "eventId": 15,
+        "ipAddress": "73.73.7.154",
+        "sourcePageTitle": "Restaurantware Valentino Cinque Macaron Packaging Pink 12\" (Case of 100) | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/product/1232642",
+        "timestamp": "2020-07-01T00:33:37.373Z",
+        "category": "PDP",
+        "action": "Product Image",
+        "value": "https://www.google.com/products/31/RTW-RWA0285W-1_1_full.jpg",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO011: Louisville (Lou)",
+        "role": "Customer",
+        "accountNumber": "849452",
+        "userEmailAddress": "bakedlou@gmail.com",
+        "userId": 681136,
+        "oboUserId": 0,
+        "payload": {
+            "imageUrl": "https://www.google.com/products/31/RTW-RWA0285W-1_1_full.jpg"
+        },
+        "browserName": "Safari",
+        "browserVersion": "13",
+        "deviceCategory": "Mobile",
+        "browserSize": "414x896",
+        "browserViewport": "414x719",
+        "operatingSystem": "iOS",
+        "operatingSystemVersion": "13.3.1",
+        "mobileDeviceBranding": "Apple",
+        "mobileDeviceModel": "iPhone",
+        "mobileDeviceInfo": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Mobile/15E148 Safari/604.1",
+        "mobileInputSelector": "touchscreen",
+        "server": {
+            "timestamp": "2020-07-01T00:33:25.7627736Z"
+        }
+    },
+    {
+        "actionId": "e71f5d5f-1f11-4bc0-9d3e-fc91e840ccb8",
+        "eventId": 15,
+        "ipAddress": "47.188.203.66",
+        "sourcePageTitle": "Dixie Ultra® SmartStock® Self-Serve Napkin Machine, Stainless Finish | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/product/1240107",
+        "timestamp": "2020-06-30T21:24:13.084Z",
+        "category": "PDP",
+        "action": "Product Image",
+        "value": "Value",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO067: Houston (HOU)",
+        "role": "Customer",
+        "accountNumber": "975052",
+        "userEmailAddress": "spankysvideo@aol.com",
+        "userId": 628534,
+        "oboUserId": 0,
+        "payload": {
+            "imageUrl": "products/F8/58000A_7_2_full.jpg"
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1920x1080",
+        "browserViewport": "1920x937",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-30T21:24:03.1650395Z"
+        }
+    },
+    {
+        "actionId": "e71f5d5f-1f11-4bc0-9d3e-fc91e840ccb8",
+        "eventId": 15,
+        "ipAddress": "47.188.203.66",
+        "sourcePageTitle": "Dixie Ultra® SmartStock® Self-Serve Napkin Machine, Stainless Finish | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/product/1240107",
+        "timestamp": "2020-06-30T21:24:13.084Z",
+        "category": "PDP",
+        "action": "Product Image",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO067: Houston (HOU)",
+        "role": "Customer",
+        "accountNumber": "975052",
+        "userEmailAddress": "spankysvideo@aol.com",
+        "userId": 0,
+        "oboUserId": 0,
+        "payload": {
+            "imageUrl": "products/F8/58000A_7_2_full.jpg"
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1920x1080",
+        "browserViewport": "1920x937",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-30T21:24:03.1650395Z"
+        }
+    }
+]

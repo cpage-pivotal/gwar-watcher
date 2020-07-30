@@ -1,0 +1,110 @@
+[
+    {
+        "actionId": "22129416-30c9-4c83-a6e3-3d3df15849fb",
+        "eventId": 23,
+        "ipAddress": "165.225.222.169",
+        "sourcePageTitle": "My Customers | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/cart",
+        "timestamp": "2020-07-02T13:50:41.732Z",
+        "category": "Cart",
+        "action": "Quantity Change",
+        "label": 2,
+        "value": 1094159,
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO016: South Florida (SFL)",
+        "role": "Corporate",
+        "accountNumber": "#S163",
+        "userEmailAddress": "swantner.suzanne@sfl.sysco.com",
+        "userId": 11854,
+        "oboUserId": 116766,
+        "payload": {
+            "productId": 1094159,
+            "quantity": 2,
+            "price": 47.85
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1280x720",
+        "browserViewport": "1280x578",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-07-02T13:50:23.5900952Z"
+        }
+    },
+    {
+        "actionId": "b0dfdc20-04a6-4914-8928-f26b613ea15c",
+        "eventId": 23,
+        "ipAddress": "71.190.231.237",
+        "sourcePageTitle": "Cart | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/cart",
+        "timestamp": "2020-07-02T04:06:49.288Z",
+        "category": "Cart",
+        "action": "Quantity Change",
+        "label": 3,
+        "value": 674503,
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO054: Connecticut (CT)",
+        "role": "Customer",
+        "accountNumber": "594697",
+        "userEmailAddress": "laranjeira64@gmail.com",
+        "userId": 582537,
+        "oboUserId": 0,
+        "payload": {
+            "productId": 674503,
+            "quantity": 3,
+            "price": 24.34
+        },
+        "browserName": "Safari",
+        "browserVersion": "14",
+        "deviceCategory": "Desktop",
+        "browserSize": "768x1024",
+        "browserViewport": "1024x642",
+        "operatingSystem": "OS X",
+        "operatingSystemVersion": "10.15.4",
+        "server": {
+            "timestamp": "2020-07-02T04:06:33.4412437Z"
+        }
+    },
+    {
+        "actionId": "0039cd8c-8bea-4941-bf61-8dfb9d2df9c7",
+        "eventId": 23,
+        "ipAddress": "12.193.255.160",
+        "sourcePageTitle": "Cart | Vizient OnTheFly",
+        "sourcePageUrl": "https://vizient.onthefly.com/v3/cart",
+        "timestamp": "2020-07-01T23:52:22.593Z",
+        "category": "Cart",
+        "action": "Quantity Change",
+        "label": 3,
+        "value": 541005,
+        "reporterKey": "RVA-000001",
+        "siteId": 160,
+        "component": "Analytics",
+        "opCo": "SYSCO050: San Francisco (SFO)",
+        "role": "Customer",
+        "accountNumber": "040121",
+        "userEmailAddress": "pgreen@frontporch.net",
+        "userId": 678592,
+        "oboUserId": 0,
+        "payload": {
+            "productId": 541005,
+            "quantity": 3,
+            "price": 31.29
+        },
+        "browserName": "Edge",
+        "browserVersion": "18.17763",
+        "deviceCategory": "Desktop",
+        "browserSize": "1536x864",
+        "browserViewport": "1536x747",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-07-01T23:52:07.7315591Z"
+        }
+    }
+]

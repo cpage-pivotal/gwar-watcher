@@ -1,0 +1,110 @@
+[
+    {
+        "actionId": "0039cd8c-8bea-4941-bf61-8dfb9d2df9c7",
+        "eventId": 23,
+        "ipAddress": "12.193.255.160",
+        "sourcePageTitle": "Cart | Vizient OnTheFly",
+        "sourcePageUrl": "https://vizient.onthefly.com/v3/cart",
+        "timestamp": "2020-07-01T23:52:22.593Z",
+        "category": "Cart",
+        "action": "Quantity Change",
+        "label": 3,
+        "value": 541005,
+        "reporterKey": "RVA-000001",
+        "siteId": 160,
+        "component": "Analytics",
+        "opCo": "SYSCO050: San Francisco (SFO)",
+        "role": "Customer",
+        "accountNumber": "040121",
+        "userEmailAddress": "pgreen@frontporch.net",
+        "userId": 678592,
+        "oboUserId": 0,
+        "payload": {
+            "productId": "541005",
+            "quantity": 3,
+            "price": 31.29
+        },
+        "browserName": "Edge",
+        "browserVersion": "18.17763",
+        "deviceCategory": "Desktop",
+        "browserSize": "1536x864",
+        "browserViewport": "1536x747",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-07-01T23:52:07.7315591Z"
+        }
+    },
+    {
+        "actionId": "0039cd8c-8bea-4941-bf61-8dfb9d2df9c7",
+        "eventId": 23,
+        "ipAddress": "12.193.255.160",
+        "sourcePageTitle": "Cart | Vizient OnTheFly",
+        "sourcePageUrl": "https://vizient.onthefly.com/v3/cart",
+        "timestamp": "2020-07-01T23:52:22.593Z",
+        "category": "Cart",
+        "action": "Quantity Change",
+        "label": 3,
+        "value": 541005,
+        "reporterKey": "RVA-000001",
+        "siteId": 160,
+        "component": "Analytics",
+        "opCo": "SYSCO050: San Francisco (SFO)",
+        "role": "Customer",
+        "accountNumber": "040121",
+        "userEmailAddress": "pgreen@frontporch.net",
+        "userId": 678592,
+        "oboUserId": 0,
+        "payload": {
+            "productId": 123456,
+            "quantity": 3,
+            "price": 31.29
+        },
+        "browserName": "Edge",
+        "browserVersion": "18.17763",
+        "deviceCategory": "Desktop",
+        "browserSize": "1536x864",
+        "browserViewport": "1536x747",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-07-01T23:52:07.7315591Z"
+        }
+    },
+    {
+        "actionId": "0039cd8c-8bea-4941-bf61-8dfb9d2df9c7",
+        "eventId": 23,
+        "ipAddress": "12.193.255.160",
+        "sourcePageTitle": "Cart | Vizient OnTheFly",
+        "sourcePageUrl": "https://vizient.onthefly.com/v3/cart",
+        "timestamp": "2020-07-01T23:52:22.593Z",
+        "category": "Home",
+        "action": "Quantity Change",
+        "label": 3,
+        "value": 541005,
+        "reporterKey": "RVA-000001",
+        "siteId": 160,
+        "component": "Analytics",
+        "opCo": "SYSCO050: San Francisco (SFO)",
+        "role": "Customer",
+        "accountNumber": "040121",
+        "userEmailAddress": "pgreen@frontporch.net",
+        "userId": 678592,
+        "oboUserId": 0,
+        "payload": {
+            "productId": 541005,
+            "quantity": 3,
+            "price": 31.29
+        },
+        "browserName": "Edge",
+        "browserVersion": "18.17763",
+        "deviceCategory": "Desktop",
+        "browserSize": "1536x864",
+        "browserViewport": "1536x747",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-07-01T23:52:07.7315591Z"
+        }
+    }
+]

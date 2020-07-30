@@ -1,0 +1,110 @@
+[
+    {
+        "actionId": "b757969a-8d54-4908-9946-12ef03b06842",
+        "eventId": 2,
+        "ipAddress": "67.79.96.157",
+        "sourcePageTitle": "Waring® WSB40 Quick Stik Plus™ Immersion Blender 24 qt (120V) | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/product/1055535",
+        "timestamp": "2020-06-28T00:18:52.761Z",
+        "category": "PDP",
+        "action": "Add to My Favorites",
+        "label": 1,
+        "value": 1055535,
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO057: Kansas City (KC)",
+        "role": "Customer",
+        "accountNumber": "232762",
+        "userEmailAddress": "fb@radissonkc.com",
+        "userId": 610915,
+        "oboUserId": 0,
+        "payload": {
+            "productId": "1055535",
+            "quantity": 1,
+            "price": "207"
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1600x900",
+        "browserViewport": "1600x708",
+        "operatingSystem": "Windows Server 2008 R2 / 7",
+        "operatingSystemVersion": "7",
+        "server": {
+            "timestamp": "2020-06-28T00:18:27.1240993Z"
+        }
+    },
+    {
+        "actionId": "b757969a-8d54-4908-9946-12ef03b06842",
+        "eventId": 2,
+        "ipAddress": "67.79.96.157",
+        "sourcePageTitle": "Waring® WSB40 Quick Stik Plus™ Immersion Blender 24 qt (120V) | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/product/1055535",
+        "timestamp": "2020-06-28T00:18:52.761Z",
+        "category": "PDP",
+        "action": "Add to My Favorites",
+        "label": 10,
+        "value": 123456,
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO057: Kansas City (KC)",
+        "role": "Customer",
+        "accountNumber": "232762",
+        "userEmailAddress": "fb@radissonkc.com",
+        "userId": 610915,
+        "oboUserId": 0,
+        "payload": {
+            "productId": 1055535,
+            "quantity": 1,
+            "price": 207
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1600x900",
+        "browserViewport": "1600x708",
+        "operatingSystem": "Windows Server 2008 R2 / 7",
+        "operatingSystemVersion": "7",
+        "server": {
+            "timestamp": "2020-06-28T00:18:27.1240993Z"
+        }
+    },
+    {
+        "actionId": "b757969a-8d54-4908-9946-12ef03b06842",
+        "eventId": 2,
+        "ipAddress": "67.79.96.157",
+        "sourcePageTitle": "Waring® WSB40 Quick Stik Plus™ Immersion Blender 24 qt (120V) | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/product/1055535",
+        "timestamp": "2020-06-28T00:18:52.761Z",
+        "category": "PDP",
+        "action": "Add to My Lists",
+        "label": 1,
+        "value": 1055535,
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO057: Kansas City (KC)",
+        "role": "Customer",
+        "accountNumber": "232762",
+        "userEmailAddress": "fb@radissonkc.com",
+        "userId": 610915,
+        "oboUserId": 0,
+        "payload": {
+            "productId": 1055535,
+            "quantity": 1,
+            "price": 207
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1600x900",
+        "browserViewport": "1600x708",
+        "operatingSystem": "Windows Server 2008 R2 / 7",
+        "operatingSystemVersion": "7",
+        "server": {
+            "timestamp": "2020-06-28T00:18:27.1240993Z"
+        }
+    }
+]

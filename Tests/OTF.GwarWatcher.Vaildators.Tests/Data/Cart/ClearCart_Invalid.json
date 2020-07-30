@@ -1,0 +1,125 @@
+[
+    {
+        "actionId": "187026a5-944e-4216-ace3-84d22d29da11",
+        "eventId": 20,
+        "ipAddress": "165.225.216.185",
+        "sourcePageTitle": "Cart | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/cart",
+        "timestamp": "2020-06-30T19:18:53.619Z",
+        "category": "Cart",
+        "action": "Clear Cart",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO293: East Texas (ETX)",
+        "role": "Corporate",
+        "accountNumber": "#S1D06",
+        "userEmailAddress": "moseley.matthew@etx.sysco.com",
+        "userId": 472694,
+        "oboUserId": 0,
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1536x864",
+        "browserViewport": "1536x722",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-30T19:18:42.5881222Z"
+        }
+    },
+    {
+        "actionId": "187026a5-944e-4216-ace3-84d22d29da11",
+        "eventId": 20,
+        "ipAddress": "165.225.216.185",
+        "sourcePageTitle": "Cart | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/cart",
+        "timestamp": "2020-06-30T19:18:53.619Z",
+        "category": "Home",
+        "action": "Clear Cart",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO293: East Texas (ETX)",
+        "role": "Corporate",
+        "accountNumber": "#S1D06",
+        "userEmailAddress": "moseley.matthew@etx.sysco.com",
+        "userId": 472694,
+        "oboUserId": 0,
+        "payload": [
+            {
+                "productId": 578603,
+                "quantity": 1
+            },
+            {
+                "productId": 578617,
+                "quantity": 1
+            },
+            {
+                "productId": 578607,
+                "quantity": 1
+            },
+            {
+                "productId": 1220640,
+                "quantity": 1
+            }
+        ],
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1536x864",
+        "browserViewport": "1536x722",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-30T19:18:42.5881222Z"
+        }
+    },
+    {
+        "actionId": "187026a5-944e-4216-ace3-84d22d29da11",
+        "eventId": 20,
+        "ipAddress": "165.225.216.185",
+        "sourcePageTitle": "Cart | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/cart",
+        "timestamp": "2020-06-30T19:18:53.619Z",
+        "category": "Cart",
+        "action": "Clear Cart",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO293: East Texas (ETX)",
+        "role": "Corporate",
+        "accountNumber": "#S1D06",
+        "userEmailAddress": "moseley.matthew@etx.sysco.com",
+        "userId": 472694,
+        "oboUserId": 0,
+        "payload": [
+            {
+                "productId": 578603,
+                "quantity": "1"
+            },
+            {
+                "productId": "578617",
+                "quantity": 1
+            },
+            {
+                "productId": 578607,
+                "quantity": 1
+            },
+            {
+                "productId": 1220640,
+                "quantity": 1
+            }
+        ],
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1536x864",
+        "browserViewport": "1536x722",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-30T19:18:42.5881222Z"
+        }
+    }
+]

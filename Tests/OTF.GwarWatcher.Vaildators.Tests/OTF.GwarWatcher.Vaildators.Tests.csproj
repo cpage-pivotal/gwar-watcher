@@ -1,0 +1,76 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.6.1" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.1.2" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.1.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Should-DotNetStandard" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\OTF.GwarWatcher.Common\OTF.GwarWatcher.Common.csproj" />
+    <ProjectReference Include="..\..\OTF.GwarWatcher.Models\OTF.GwarWatcher.Models.csproj" />
+    <ProjectReference Include="..\..\OTF.GwarWatcher.Validators\OTF.GwarWatcher.Validators.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Data\Cart.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Cart.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Data\Checkout.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Checkout.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Data\General.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>General.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Data\Pdp.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Pdp.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Data\Cart.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Cart.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Data\Checkout.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Checkout.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Data\General.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>General.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Data\Pdp.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Pdp.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Data\Pdp\AddToCart_Valid.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Ad\" />
+    <Folder Include="Data\Ad\" />
+  </ItemGroup>
+
+</Project>

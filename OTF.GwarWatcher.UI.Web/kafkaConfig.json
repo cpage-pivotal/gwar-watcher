@@ -1,0 +1,7 @@
+{
+    "groupId": "Gwar-Watcher",
+    "bootstrapServers": "avkaf11.corp.instawares.com:9092, avkaf12.corp.instawares.com:9092, avkaf13.corp.instawares.com:9092",
+    "topics": [ "gwar_dev", "gwar_browsinghistory_dev", "gwar_impressions_dev", "gwar_search_dev" ],
+    "maxMessageCount": 10000,
+    "timeoutSeconds":  10
+}

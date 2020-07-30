@@ -1,0 +1,64 @@
+﻿@using OTF.GwarWatcher.UI.Web.Models
+
+<tr>
+    <td class="align-middle">@this.Header?.Event.Id</td>
+    <td class="align-middle">@this.Header?.Event.Category</td>
+    <td class="align-middle">@this.Header?.Event.Action</td>
+    <td class="align-middle">@(this.Count > 0 && this.MaxTimestamp > DateTime.MinValue ? $"{this.MaxTimestamp:yyyy-MM-dd HH:mm:ss.fff tt}" : string.Empty) </td>
+    <td class="text-right align-middle">@this.Messages.Count(m => m.FoundInKafka).ToString("n0")</td>
+    <td class="text-right align-middle">@this.Messages.Count(m => m.FoundInElastic).ToString("n0")</td>
+    <td class="text-right align-middle @this.GetValidatedCellStyle()">@(this.Count > 0 ? $"{this.ValidCount:n0} ({this.ValidPct:P2})": string.Empty) </td>
+    <td class="align-middle">
+        @if (this.Count > 0)
+        {
+            <button @onclick="@(() => this.OnShowDetailsClick.InvokeAsync(this))" class="btn btn-outline-primary btn-sm"><span class="oi oi-ellipses"></span></button>
+        }
+    </td>
+</tr>
+
+@code {
+    [Parameter]
+    public IEnumerable<MessageModel> Messages { get; set; } = new List<MessageModel>();
+
+    [Parameter]
+    public EventCallback<EventRow> OnShowDetailsClick { get; set; }
+
+    private MessageModel Header { get; set; } = new MessageModel();
+    private int Count { get; set; } = 0;
+    private int ValidCount { get; set; } = 0;
+    private float ValidPct { get; set; } = 0;
+    private DateTime MaxTimestamp { get; set; } = DateTime.MinValue;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        this.Header = this.Messages.FirstOrDefault() ?? new MessageModel();
+        this.Count = this.Messages.Count(m => m.FoundInKafka || m.FoundInElastic);
+        this.ValidCount = this.Messages.Count(m => (m.Result?.IsValid).GetValueOrDefault(false));
+        if (this.Count > 0)
+        {
+            this.ValidPct = ((float)this.ValidCount / (float)this.Count);
+            this.MaxTimestamp = this.Messages.Max(m => m.MaxTimestamp);
+        }
+    }
+
+    private string GetValidatedCellStyle()
+    {
+        /*
+         * success = Green/Good
+         * warning = Yellow/Problem
+         * danger = Red/Bad
+         */
+        string color = "success";
+        if (this.Count == 0 || !this.Messages.All(m => m.FoundInElastic) || this.ValidPct < 0.33 || this.Messages.Count(m => m.FoundInElastic) < this.Count)
+        {
+            color = "danger";
+        }
+        else if (this.ValidPct < 0.75)
+        {
+            color = "warning";
+        }
+        return $"table-{color}";
+    }
+}

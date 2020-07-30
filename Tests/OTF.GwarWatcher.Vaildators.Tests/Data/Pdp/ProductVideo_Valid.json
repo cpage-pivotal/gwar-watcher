@@ -1,0 +1,104 @@
+[
+    {
+        "actionId": "b086673a-fd6b-4906-acb0-0dc43a18785e",
+        "eventId": 16,
+        "ipAddress": "209.10.96.116",
+        "sourcePageTitle": "Carlisle® OptiClean™ NeWave™ Glass Rack with 2 Extenders Carlisle Blue 30-Compartment (Case of 3) | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/product/663085",
+        "timestamp": "2020-07-01T17:08:26.512Z",
+        "category": "PDP",
+        "action": "Product Video",
+        "label": "https://player.vimeo.com/video/216229265?autoplay=true",
+        "value": "played",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO429: Doerle (DRL)",
+        "role": "Customer",
+        "accountNumber": "410271",
+        "userEmailAddress": "lhardy@plantationmgt.com",
+        "userId": 657008,
+        "oboUserId": 0,
+        "payload": {
+            "videoUrl": "https://player.vimeo.com/video/216229265?autoplay=true"
+        },
+        "browserName": "InternetExplorer",
+        "browserVersion": "11",
+        "deviceCategory": "Desktop",
+        "browserSize": "1920x1080",
+        "browserViewport": "1920x934",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-07-01T17:08:11.926667Z"
+        }
+    },
+    {
+        "actionId": "a9f655bb-1700-4faf-874f-d61800b40712",
+        "eventId": 16,
+        "ipAddress": "96.92.118.150",
+        "sourcePageTitle": "Cambro® Cam GoBox® Insulated Food Pan Carrier 90.9 QT | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/Product/1210701",
+        "timestamp": "2020-06-30T19:56:48.981Z",
+        "category": "PDP",
+        "action": "Product Video",
+        "label": "https://player.vimeo.com/video/243163860?autoplay=true",
+        "value": "played",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO004: Central California (centralca)",
+        "role": "Customer",
+        "accountNumber": "677016",
+        "userEmailAddress": "srandel@northstarsl.com",
+        "userId": 651267,
+        "oboUserId": 0,
+        "payload": {
+            "videoUrl": "https://player.vimeo.com/video/243163860?autoplay=true"
+        },
+        "browserName": "Chrome",
+        "browserVersion": "78",
+        "deviceCategory": "Desktop",
+        "browserSize": "1920x1080",
+        "browserViewport": "1920x969",
+        "operatingSystem": "Windows Server 2008 R2 / 7",
+        "operatingSystemVersion": "7",
+        "server": {
+            "timestamp": "2020-06-30T19:56:31.0740028Z"
+        }
+    },
+    {
+        "actionId": "722b4e57-7a92-423f-8ff2-9b20faa4879d",
+        "eventId": 16,
+        "ipAddress": "165.225.216.160",
+        "sourcePageTitle": "Bon Chef AeroGlove Touchless Glove Dispenser White 10-1/2\"x16\" | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/product/9860259",
+        "timestamp": "2020-06-29T22:28:56.252Z",
+        "category": "PDP",
+        "action": "Product Video",
+        "label": "https://player.vimeo.com/video/416077360?autoplay=true",
+        "value": "played",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO040: Idaho",
+        "role": "Corporate",
+        "accountNumber": "#S1D10",
+        "userEmailAddress": "melton.julie@idaho.sysco.com",
+        "userId": 663733,
+        "oboUserId": 0,
+        "payload": {
+            "videoUrl": "https://player.vimeo.com/video/416077360?autoplay=true"
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1280x720",
+        "browserViewport": "1280x529",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-29T22:28:48.8645054Z"
+        }
+    }
+]

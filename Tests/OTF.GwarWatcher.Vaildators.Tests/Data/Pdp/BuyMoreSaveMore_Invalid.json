@@ -1,0 +1,110 @@
+[
+    {
+        "actionId": "a53e1ca6-cbab-40ac-a1bc-e48272a5c640",
+        "eventId": 3,
+        "ipAddress": "104.129.199.23",
+        "sourcePageTitle": "Anchor® Barbary Beer Taster Glass 4-1/2 oz (Case of 24) | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/Product/1121910",
+        "timestamp": "2020-06-28T21:23:03.07Z",
+        "category": "PDP",
+        "action": "Buy More Save More",
+        "label": 1,
+        "value": 1121910,
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO101: Ventura(ventura)",
+        "role": "Corporate",
+        "accountNumber": "#S068",
+        "userEmailAddress": "zide.jason@ventura.sysco.com",
+        "userId": 628786,
+        "oboUserId": 383015,
+        "payload": {
+            "productId": "1121910",
+            "quantity": 1,
+            "price": 63.06
+        },
+        "browserName": "Chrome",
+        "browserVersion": "78",
+        "deviceCategory": "Desktop",
+        "browserSize": "1536x864",
+        "browserViewport": "1920x903",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-28T21:23:00.3909013Z"
+        }
+    },
+    {
+        "actionId": "a53e1ca6-cbab-40ac-a1bc-e48272a5c640",
+        "eventId": 3,
+        "ipAddress": "104.129.199.23",
+        "sourcePageTitle": "Anchor® Barbary Beer Taster Glass 4-1/2 oz (Case of 24) | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/Product/1121910",
+        "timestamp": "2020-06-28T21:23:03.07Z",
+        "category": "PDP",
+        "action": "Buy More Save More",
+        "label": 1,
+        "value": 123,
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO101: Ventura(ventura)",
+        "role": "Corporate",
+        "accountNumber": "#S068",
+        "userEmailAddress": "zide.jason@ventura.sysco.com",
+        "userId": 628786,
+        "oboUserId": 383015,
+        "payload": {
+            "productId": 1121910,
+            "quantity": 1,
+            "price": 63.06
+        },
+        "browserName": "Chrome",
+        "browserVersion": "78",
+        "deviceCategory": "Desktop",
+        "browserSize": "1536x864",
+        "browserViewport": "1920x903",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-28T21:23:00.3909013Z"
+        }
+    },
+    {
+        "actionId": "a53e1ca6-cbab-40ac-a1bc-e48272a5c640",
+        "eventId": 3,
+        "ipAddress": "104.129.199.23",
+        "sourcePageTitle": "Anchor® Barbary Beer Taster Glass 4-1/2 oz (Case of 24) | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/Product/1121910",
+        "timestamp": "2020-06-28T21:23:03.07Z",
+        "category": "Home",
+        "action": "Buy More Save More",
+        "label": 1,
+        "value": 1121910,
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO101: Ventura(ventura)",
+        "role": "Corporate",
+        "accountNumber": "#S068",
+        "userEmailAddress": "zide.jason@ventura.sysco.com",
+        "userId": 628786,
+        "oboUserId": 383015,
+        "payload": {
+            "productId": 1121910,
+            "quantity": 1
+        },
+        "browserName": "Chrome",
+        "browserVersion": "78",
+        "deviceCategory": "Desktop",
+        "browserSize": "1536x864",
+        "browserViewport": "1920x903",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-28T21:23:00.3909013Z"
+        }
+    }
+
+]

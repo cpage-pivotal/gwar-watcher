@@ -1,0 +1,9 @@
+{
+    "Nodes": [
+        "http://bpelk11.corp.instawares.com:9200",
+        "http://bpelk12.corp.instawares.com:9200",
+        "http://bpelk13.corp.instawares.com:9200"
+    ],
+    "KibanaRoot": "https://bpelk11.corp.instawares.com:5601",
+    "EnvironmentTldCsv": "com"
+}

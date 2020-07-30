@@ -1,0 +1,64 @@
+﻿@using OTF.GwarWatcher.UI.Web.Models
+@using OTF.GwarWatcher.UI.Web.Components
+
+@{
+    IEnumerable<MessageModel> orderedMessages = this.Messages.Where(m => (m.KafkaMessage?.Value?.TimestampDateTime.HasValue).GetValueOrDefault(false))
+        .OrderByDescending(m => m.KafkaMessage.Value.TimestampDateTime).ToList();
+}
+
+<div class="mb-3">
+    Kafka Timestamp Range: <em><b>@($"{orderedMessages.LastOrDefault()?.KafkaMessage?.Value.TimestampDateTime:yyyy-MM-dd hh:mm:ss.fff tt}")</b></em> to <em><b>@($"{orderedMessages.FirstOrDefault()?.KafkaMessage?.Value.TimestampDateTime:yyyy-MM-dd hh:mm:ss.fff tt}")</b></em>
+</div>
+<table id="@this.Id" class="table table-hover table-sm display mb-0" data-order='[[ 0, "asc" ]]'>
+    <thead class="thead-dark">
+        <tr>
+            <th>Event ID</th>
+            <th>Category</th>
+            <th>Action</th>
+            <th>Latest Timestamp</th>
+            <th>Count (k)</th>
+            <th>Count (e)</th>
+            <th>Valid</th>
+            <th data-orderable="false"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (IGrouping<int, MessageModel> group in this.Messages.OrderBy(m => m.Event.Id).GroupBy(m => m.Event.Id))
+        {
+            <EventRow Messages="group.Select(g => g)" OnShowDetailsClick="this.OnShowDetailsClickHandler" />
+        }
+    </tbody>
+    <tfoot>
+        @{
+            int kCount = this.Messages.Count(m => m.FoundInKafka);
+            int eCount = this.Messages.Count(m => m.FoundInElastic);
+            int count = kCount + eCount;
+            int validCount = this.Messages.Count(m => m.FoundInKafka && (m.Result?.IsValid).GetValueOrDefault(false));
+        }
+        <tr>
+            <td colspan="4" class="text-right align-middle">Totals:</td>
+            <td class="text-right align-middle">@kCount.ToString("n0")</td>
+            <td class="text-right align-middle">@eCount.ToString("n0")</td>
+            <td class="text-right align-middle">@(count > 0 ? $"{validCount:n0} ({((float)validCount/(float)count):P2})": "")</td>
+            <td></td>
+        </tr>
+    </tfoot>
+</table>
+
+<EventDetailModal @ref="DetailsModal" />
+
+@code {
+    [Parameter]
+    public string Id { get; set; } = "events";
+
+    [Parameter]
+    public IEnumerable<MessageModel> Messages { get; set; } = new List<MessageModel>();
+
+    private EventDetailModal DetailsModal { get; set; }
+
+    private void OnShowDetailsClickHandler(EventRow row)
+    {
+        this.DetailsModal.Messages = row.Messages;
+        this.DetailsModal.Open();
+    }
+}

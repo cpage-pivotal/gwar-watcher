@@ -1,0 +1,110 @@
+[
+    {
+        "actionId": "06a4d689-db88-4036-9fce-85d6f305a379",
+        "eventId": 3,
+        "ipAddress": "165.225.222.165",
+        "sourcePageTitle": "Syracuse® White Polished Esteem Plate 12-1/2\" (Case of 12) | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/Product/1157462",
+        "timestamp": "2020-06-30T10:59:24.307Z",
+        "category": "PDP",
+        "action": "Buy More Save More",
+        "label": 1,
+        "value": 1157462,
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO003: Jacksonville (JAX)",
+        "role": "Corporate",
+        "accountNumber": "#SNJ9",
+        "userEmailAddress": "mcwilliam.iain@jax.sysco.com",
+        "userId": 624133,
+        "oboUserId": 546388,
+        "payload": {
+            "productId": 1157462,
+            "quantity": 1,
+            "price": 188.64
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1536x864",
+        "browserViewport": "1536x674",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-30T10:59:15.7776861Z"
+        }
+    },
+    {
+        "actionId": "9c6b6c24-7019-4636-8b34-ebcafc6d8a96",
+        "eventId": 3,
+        "ipAddress": "50.192.96.94",
+        "sourcePageTitle": "Libbey® Chicago Old Fashioned Glass 10.25 oz (Case of 12) | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/Product/1073871",
+        "timestamp": "2020-06-29T23:28:02.421Z",
+        "category": "PDP",
+        "action": "Buy More Save More",
+        "label": 1,
+        "value": 1073871,
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO058: Detroit (DET)",
+        "role": "Customer",
+        "accountNumber": "907956",
+        "userEmailAddress": "stevesimon1114@gmail.com",
+        "userId": 581185,
+        "oboUserId": 0,
+        "payload": {
+            "productId": 1073871,
+            "quantity": 1,
+            "price": 24.75
+        },
+        "browserName": "Safari",
+        "browserVersion": "14",
+        "deviceCategory": "Desktop",
+        "browserSize": "1440x900",
+        "browserViewport": "1440x837",
+        "operatingSystem": "OS X",
+        "operatingSystemVersion": "10.13.6",
+        "server": {
+            "timestamp": "2020-06-29T23:27:55.2051696Z"
+        }
+    },
+    {
+        "actionId": "a53e1ca6-cbab-40ac-a1bc-e48272a5c640",
+        "eventId": 3,
+        "ipAddress": "104.129.199.23",
+        "sourcePageTitle": "Anchor® Barbary Beer Taster Glass 4-1/2 oz (Case of 24) | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/Product/1121910",
+        "timestamp": "2020-06-28T21:23:03.07Z",
+        "category": "PDP",
+        "action": "Buy More Save More",
+        "label": 1,
+        "value": 1121910,
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO101: Ventura(ventura)",
+        "role": "Corporate",
+        "accountNumber": "#S068",
+        "userEmailAddress": "zide.jason@ventura.sysco.com",
+        "userId": 628786,
+        "oboUserId": 383015,
+        "payload": {
+            "productId": 1121910,
+            "quantity": 1,
+            "price": 63.06
+        },
+        "browserName": "Chrome",
+        "browserVersion": "78",
+        "deviceCategory": "Desktop",
+        "browserSize": "1536x864",
+        "browserViewport": "1920x903",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-28T21:23:00.3909013Z"
+        }
+    }
+]

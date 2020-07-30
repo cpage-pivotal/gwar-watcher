@@ -1,0 +1,105 @@
+[
+    {
+        "actionId": "1cdaed40-1cff-4a9c-9701-4a7a45e10413",
+        "eventId": 7,
+        "ipAddress": "104.129.196.124",
+        "sourcePageTitle": "KitchenDance© D & W Fine Pack© Cake Display Container (Case of 160) | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/product/9855383",
+        "timestamp": "2020-06-30T13:01:19.522Z",
+        "category": "PDP",
+        "action": "",
+        "value": "9855383",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO047: Minnesota(MIN)",
+        "role": "Corporate",
+        "accountNumber": "#S016",
+        "userEmailAddress": "krueger.lou@min.sysco.com",
+        "userId": 474621,
+        "oboUserId": 0,
+        "payload": {
+            "productId": 9855383,
+            "price": "189.99"
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1920x1080",
+        "browserViewport": "1920x937",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-30T13:01:10.3210842Z"
+        }
+    },
+    {
+        "actionId": "1cdaed40-1cff-4a9c-9701-4a7a45e10413",
+        "eventId": 7,
+        "ipAddress": "104.129.196.124",
+        "sourcePageTitle": "KitchenDance© D & W Fine Pack© Cake Display Container (Case of 160) | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/product/9855383",
+        "timestamp": "2020-06-30T13:01:19.522Z",
+        "category": "PDP",
+        "action": "Email Product",
+        "value": "12345",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO047: Minnesota(MIN)",
+        "role": "Corporate",
+        "accountNumber": "#S016",
+        "userEmailAddress": "krueger.lou@min.sysco.com",
+        "userId": 474621,
+        "oboUserId": 0,
+        "payload": {
+            "productId": 9855383,
+            "price": 189.99
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1920x1080",
+        "browserViewport": "1920x937",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-30T13:01:10.3210842Z"
+        }
+    },
+    {
+        "actionId": "1cdaed40-1cff-4a9c-9701-4a7a45e10413",
+        "eventId": 7,
+        "ipAddress": "104.129.196.124",
+        "sourcePageTitle": "KitchenDance© D & W Fine Pack© Cake Display Container (Case of 160) | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/product/9855383",
+        "timestamp": "2020-06-30T13:01:19.522Z",
+        "category": "Home",
+        "action": "Email Product",
+        "value": "9855383",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO047: Minnesota(MIN)",
+        "role": "Corporate",
+        "accountNumber": "#S016",
+        "userEmailAddress": "krueger.lou@min.sysco.com",
+        "userId": 474621,
+        "oboUserId": 0,
+        "payload": {
+            "productId": 9855383,
+            "price": 189.99
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1920x1080",
+        "browserViewport": "1920x937",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-30T13:01:10.3210842Z"
+        }
+    }
+
+]

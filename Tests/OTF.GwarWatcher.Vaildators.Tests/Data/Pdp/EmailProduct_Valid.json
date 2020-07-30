@@ -1,0 +1,104 @@
+[
+    {
+        "actionId": "1cdaed40-1cff-4a9c-9701-4a7a45e10413",
+        "eventId": 7,
+        "ipAddress": "104.129.196.124",
+        "sourcePageTitle": "KitchenDance© D & W Fine Pack© Cake Display Container (Case of 160) | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/product/9855383",
+        "timestamp": "2020-06-30T13:01:19.522Z",
+        "category": "PDP",
+        "action": "Email Product",
+        "value": "9855383",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO047: Minnesota(MIN)",
+        "role": "Corporate",
+        "accountNumber": "#S016",
+        "userEmailAddress": "krueger.lou@min.sysco.com",
+        "userId": 474621,
+        "oboUserId": 0,
+        "payload": {
+            "productId": 9855383,
+            "price": 189.99
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1920x1080",
+        "browserViewport": "1920x937",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-30T13:01:10.3210842Z"
+        }
+    },
+    {
+        "actionId": "467cc8df-e9fb-47de-8965-048cad74ff98",
+        "eventId": 7,
+        "ipAddress": "165.225.222.179",
+        "sourcePageTitle": "Winco® Lobster Cracker 6\" | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/Product/1151093",
+        "timestamp": "2020-06-29T20:51:59.186Z",
+        "category": "PDP",
+        "action": "Email Product",
+        "value": "1151093",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO003: Jacksonville (JAX)",
+        "role": "Corporate",
+        "accountNumber": "#SSA31",
+        "userEmailAddress": "dupuis.amber@jax.sysco.com",
+        "userId": 259682,
+        "oboUserId": 666610,
+        "payload": {
+            "productId": 1151093,
+            "price": 4.5
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1536x864",
+        "browserViewport": "1536x722",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-29T20:51:53.0877731Z"
+        }
+    },
+    {
+        "actionId": "f19b2061-7671-42bc-8027-ed82cb59bc9b",
+        "eventId": 7,
+        "ipAddress": "73.85.7.235",
+        "sourcePageTitle": "Crown Brands Update Int'l Cooler Cart with Bottle Opener Black 65 QT | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/product/1228626",
+        "timestamp": "2020-06-28T21:20:26.456Z",
+        "category": "PDP",
+        "action": "Email Product",
+        "value": "1228626",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO032: Southeast Florida (SEF)",
+        "role": "Customer",
+        "accountNumber": "543322",
+        "userEmailAddress": "helen.oluaghlin@ahschool.com",
+        "userId": 287798,
+        "oboUserId": 0,
+        "payload": {
+            "productId": 1228626,
+            "price": 226.63
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1024x768",
+        "browserViewport": "1024x657",
+        "operatingSystem": "Windows Server 2008 R2 / 7",
+        "operatingSystemVersion": "7",
+        "server": {
+            "timestamp": "2020-06-28T21:20:22.8375731Z"
+        }
+    }
+]

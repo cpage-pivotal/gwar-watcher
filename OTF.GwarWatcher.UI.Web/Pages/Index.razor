@@ -1,0 +1,50 @@
+﻿@page "/"
+@using OTF.GwarWatcher.UI.Web.Models
+@using OTF.GwarWatcher.UI.Web.Components
+@inject Data.MessageService MessageService
+@inject IJSRuntime JSRuntime
+
+<div class="mb-3">
+    <select class="form-control-lg" @bind="this.Environment" disabled="@this.IsLoading">
+        <option>DEV</option>
+        <option>QA</option>
+        <option>STG</option>
+        <option>UAT</option>
+        <option>PROD</option>
+    </select>
+    <button class="btn-lg @(this.IsLoading ? "btn-secondary" : "btn-primary")" @onclick="this.FetchData" disabled="@this.IsLoading">Fetch Messages</button>
+</div>
+@if (this.IsLoading)
+{
+    <div class="p-2">
+        <span class="spinner-border spinner-border-sm" role="status"></span> Loading...
+    </div>
+}
+else
+{
+    if (this.Messages.Any())
+    {
+        <body onbeforeunload="DataTablesRemove('#events')">
+            <EventTable Messages="this.Messages" Id="events" />
+        </body>
+    }
+    else
+    {
+        <div>No messages</div>
+    }
+}
+
+@code {
+    private string Environment { get; set; } = "QA";
+    private IEnumerable<MessageModel> Messages = new List<MessageModel>();
+    private bool IsLoading { get; set; } = false;
+
+    private async void FetchData()
+    {
+        this.IsLoading = true;
+        this.Messages = await this.MessageService.GetMessages(this.Environment) ?? new List<MessageModel>();
+        this.IsLoading = false;
+        this.StateHasChanged();
+        await this.JSRuntime.InvokeAsync<object>("DataTablesAdd", "#events");
+    }
+}

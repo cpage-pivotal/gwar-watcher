@@ -1,0 +1,10 @@
+{
+    "Nodes": [
+        "http://avelk21.corp.instawares.com:9200",
+        "http://avelk22.corp.instawares.com:9200",
+        "http://avelk23.corp.instawares.com:9200"
+    ],
+    "MaxValuesPerQuery": 1000,
+    "KibanaRoot": "http://avelk21.corp.instawares.com:5601",
+    "EnvironmentTldCsv":  "dev, loc"
+}

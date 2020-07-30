@@ -1,0 +1,105 @@
+[
+    {
+        "actionId": "e77850d1-2d28-4230-9b7b-ccb013099575",
+        "eventId": 24,
+        "ipAddress": "165.225.216.175",
+        "sourcePageTitle": "Cart | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/cart",
+        "timestamp": "2020-07-02T13:33:05.156Z",
+        "category": "Cart",
+        "action": "Coupon Applied",
+        "value": "10DISC",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO009: Pittsburgh (PIT)",
+        "role": "Corporate",
+        "accountNumber": "#S632",
+        "userEmailAddress": "MURPHY.PATRICK@PIT.SYSCO.COM",
+        "userId": 185753,
+        "oboUserId": 571212,
+        "payload": {
+            "couponCode": "10DISC"
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1280x720",
+        "browserViewport": "1280x578",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-07-02T13:32:47.1433371Z"
+        }
+    },
+    {
+        "actionId": "51a8cf14-a6c8-43e7-982c-64f383c389cc",
+        "eventId": 24,
+        "ipAddress": "100.11.143.210",
+        "sourcePageTitle": "Cart | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/cart",
+        "timestamp": "2020-07-01T18:34:14.773Z",
+        "category": "Cart",
+        "action": "Coupon Applied",
+        "value": "WSCXDFHXAYX",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO075: Philadelphia (philly)",
+        "role": "Customer",
+        "accountNumber": "815973",
+        "userEmailAddress": "tikenllc@gmail.com",
+        "userId": 683525,
+        "oboUserId": 0,
+        "payload": {
+            "couponCode": "WSCXDFHXAYX"
+        },
+        "browserName": "Safari",
+        "browserVersion": "13",
+        "deviceCategory": "Mobile",
+        "browserSize": "414x736",
+        "browserViewport": "414x716",
+        "operatingSystem": "iOS",
+        "operatingSystemVersion": "13.3",
+        "mobileDeviceBranding": "Apple",
+        "mobileDeviceModel": "iPhone",
+        "mobileDeviceInfo": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Mobile/15E148 Safari/604.1",
+        "mobileInputSelector": "touchscreen",
+        "server": {
+            "timestamp": "2020-07-01T18:33:59.9490542Z"
+        }
+    },
+    {
+        "actionId": "9834175a-3312-4551-941d-0079eb797873",
+        "eventId": 24,
+        "ipAddress": "104.129.196.183",
+        "sourcePageTitle": "Cart | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/cart",
+        "timestamp": "2020-06-30T19:36:22.432Z",
+        "category": "Cart",
+        "action": "Coupon Applied",
+        "value": "250off",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO015: Cleveland (CLE)",
+        "role": "Corporate",
+        "accountNumber": "#SB14",
+        "userEmailAddress": "luciano.matt@cle.sysco.com",
+        "userId": 653033,
+        "oboUserId": 0,
+        "payload": {
+            "couponCode": "250off"
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1536x864",
+        "browserViewport": "1536x754",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-30T19:36:11.6283425Z"
+        }
+    }
+]

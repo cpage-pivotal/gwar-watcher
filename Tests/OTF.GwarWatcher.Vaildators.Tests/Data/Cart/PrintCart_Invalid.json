@@ -1,0 +1,205 @@
+[
+    {
+        "actionId": "d6cc0637-d438-4d18-bcff-2181b9c5341e",
+        "eventId": 25,
+        "ipAddress": "174.204.84.201",
+        "sourcePageTitle": "Cart | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/cart",
+        "timestamp": "2020-07-01T03:17:59.939Z",
+        "category": "Cart",
+        "action": "Print",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO055: Seattle (SEA)",
+        "role": "Customer",
+        "accountNumber": "931004",
+        "userEmailAddress": "info@alkibeachcafe.com",
+        "userId": 685170,
+        "oboUserId": 0,
+        "payload": [
+            {
+                "productId": "1093582",
+                "quantity": 2
+            },
+            {
+                "productId": 1100952,
+                "quantity": 4
+            },
+            {
+                "productId": 1094596,
+                "quantity": "2"
+            },
+            {
+                "productId": 987448,
+                "quantity": 1
+            },
+            {
+                "productId": 1099097,
+                "quantity": 2
+            },
+            {
+                "productId": 660153,
+                "quantity": 5
+            },
+            {
+                "productId": 1093883,
+                "quantity": 2
+            },
+            {
+                "productId": 1093881,
+                "quantity": 2
+            },
+            {
+                "productId": 1093877,
+                "quantity": 2
+            },
+            {
+                "productId": 1093893,
+                "quantity": 6
+            },
+            {
+                "productId": 1094092,
+                "quantity": 4
+            },
+            {
+                "productId": 1093876,
+                "quantity": 1
+            },
+            {
+                "productId": 557842,
+                "quantity": 1
+            },
+            {
+                "productId": 1125575,
+                "quantity": 60
+            }
+        ],
+        "browserName": "Chrome",
+        "browserVersion": "80",
+        "deviceCategory": "Desktop",
+        "browserSize": "1280x720",
+        "browserViewport": "1250x561",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-07-01T03:17:48.5708891Z"
+        }
+    },
+    {
+        "actionId": "d6cc0637-d438-4d18-bcff-2181b9c5341e",
+        "eventId": 25,
+        "ipAddress": "174.204.84.201",
+        "sourcePageTitle": "Cart | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/cart",
+        "timestamp": "2020-07-01T03:17:59.939Z",
+        "category": "Cart",
+        "action": "Print",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO055: Seattle (SEA)",
+        "role": "Customer",
+        "accountNumber": "931004",
+        "userEmailAddress": "info@alkibeachcafe.com",
+        "userId": 685170,
+        "oboUserId": 0,
+        "browserName": "Chrome",
+        "browserVersion": "80",
+        "deviceCategory": "Desktop",
+        "browserSize": "1280x720",
+        "browserViewport": "1250x561",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-07-01T03:17:48.5708891Z"
+        }
+    },
+    {
+        "actionId": "d6cc0637-d438-4d18-bcff-2181b9c5341e",
+        "eventId": 25,
+        "ipAddress": "174.204.84.201",
+        "sourcePageTitle": "Cart | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/cart",
+        "timestamp": "2020-07-01T03:17:59.939Z",
+        "category": "Cart",
+        "action": "Save",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO055: Seattle (SEA)",
+        "role": "Customer",
+        "accountNumber": "931004",
+        "userEmailAddress": "info@alkibeachcafe.com",
+        "userId": 685170,
+        "oboUserId": 0,
+        "payload": [
+            {
+                "productId": 1093582,
+                "quantity": 2
+            },
+            {
+                "productId": 1100952,
+                "quantity": 4
+            },
+            {
+                "productId": 1094596,
+                "quantity": 2
+            },
+            {
+                "productId": 987448,
+                "quantity": 1
+            },
+            {
+                "productId": 1099097,
+                "quantity": 2
+            },
+            {
+                "productId": 660153,
+                "quantity": 5
+            },
+            {
+                "productId": 1093883,
+                "quantity": 2
+            },
+            {
+                "productId": 1093881,
+                "quantity": 2
+            },
+            {
+                "productId": 1093877,
+                "quantity": 2
+            },
+            {
+                "productId": 1093893,
+                "quantity": 6
+            },
+            {
+                "productId": 1094092,
+                "quantity": 4
+            },
+            {
+                "productId": 1093876,
+                "quantity": 1
+            },
+            {
+                "productId": 557842,
+                "quantity": 1
+            },
+            {
+                "productId": 1125575,
+                "quantity": 60
+            }
+        ],
+        "browserName": "Chrome",
+        "browserVersion": "80",
+        "deviceCategory": "Desktop",
+        "browserSize": "1280x720",
+        "browserViewport": "1250x561",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-07-01T03:17:48.5708891Z"
+        }
+    }
+]

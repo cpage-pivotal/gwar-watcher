@@ -1,0 +1,36 @@
+﻿@using OTF.GwarWatcher.UI.Web.Models
+
+<tr>
+    <td class="text-nowrap align-center">
+        @if (this.Message.FoundInElastic && !string.IsNullOrEmpty(this.Message.KibanaUrl))
+        {
+            <a href="@this.Message.KibanaUrl" target="_blank" title="View in kibana">@this.Message.Event.ActionId</a>
+        }
+        else
+        {
+            <span>@this.Message.Event.ActionId</span>
+        }
+    </td>
+    <td class="text-nowrap align-center">@($"{this.Message.Event.Timestamp:yyyy-MM-dd HH:mm:ss.fff tt}")</td>
+    <td class="text-center align-center">@(this.Message.FoundInKafka ? "X" : "")</td>
+    <td>@(this.Message.FoundInKafka ? this.Message.KafkaMessage?.Topic : string.Empty)</td>
+    <td class="text-center align-center">@(this.Message.FoundInElastic? "X" : "")</td>
+    <td class="text-center align-center">@((this.Message.Result?.IsValid).GetValueOrDefault(false) ? "Y" : "N")</td>
+    <td class="align-center">
+        @if ((this.Message.Result?.Messages.Any()).GetValueOrDefault(false))
+        {
+            <ul class="mb-0">
+                @foreach (string msg in this.Message.Result.Messages)
+                {
+                    <li>@msg</li>
+                }
+            </ul>
+        }
+    </td>
+</tr>
+
+
+@code {
+    [Parameter]
+    public MessageModel Message { get; set; }
+}

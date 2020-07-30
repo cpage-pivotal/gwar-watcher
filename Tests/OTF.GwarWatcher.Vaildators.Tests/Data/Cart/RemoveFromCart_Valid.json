@@ -1,0 +1,110 @@
+[
+    {
+        "actionId": "022fb04f-547f-41f4-94b8-a9ebe7e5b4df",
+        "eventId": 22,
+        "ipAddress": "208.93.112.72",
+        "sourcePageTitle": "Cart | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/cart",
+        "timestamp": "2020-07-02T13:21:52.792Z",
+        "category": "Cart",
+        "action": "Remove",
+        "label": 1,
+        "value": 670571,
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO073: Hampton Roads (SHR)",
+        "role": "Customer",
+        "accountNumber": "180422",
+        "userEmailAddress": "hsmith@instawares.com",
+        "userId": 427049,
+        "oboUserId": 0,
+        "payload": {
+            "productId": 670571,
+            "quantity": 1,
+            "price": 3.09
+        },
+        "browserName": "Chrome",
+        "browserVersion": "74",
+        "deviceCategory": "Desktop",
+        "browserSize": "1280x1024",
+        "browserViewport": "1279x951",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-07-02T13:21:34.6416342Z"
+        }
+    },
+    {
+        "actionId": "ee5eecdc-7127-4654-920f-80e5336b67b4",
+        "eventId": 22,
+        "ipAddress": "104.129.192.196",
+        "sourcePageTitle": "Cart | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/cart",
+        "timestamp": "2020-07-01T22:44:22.033Z",
+        "category": "Cart",
+        "action": "Remove",
+        "label": 1,
+        "value": 1165811,
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO050: San Francisco (SFO)",
+        "role": "Corporate",
+        "accountNumber": "#S424",
+        "userEmailAddress": "MCCORMICK.MICHAEL@SFO.SYSCO.COM",
+        "userId": 113461,
+        "oboUserId": 0,
+        "payload": {
+            "productId": 1165811,
+            "quantity": 1,
+            "price": 53.54
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1536x864",
+        "browserViewport": "1920x842",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-07-01T22:44:07.059686Z"
+        }
+    },
+    {
+        "actionId": "ae54b9ee-c6ea-4f3f-846d-f81461844a54",
+        "eventId": 22,
+        "ipAddress": "165.225.10.174",
+        "sourcePageTitle": "Cart | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/cart",
+        "timestamp": "2020-07-01T22:31:56.419Z",
+        "category": "Cart",
+        "action": "Remove",
+        "label": 1,
+        "value": 1109081,
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO043: Montana (MT)",
+        "role": "Corporate",
+        "accountNumber": "#S039",
+        "userEmailAddress": "Hayes.Michelle@mt.sysco.com",
+        "userId": 252989,
+        "oboUserId": 549917,
+        "payload": {
+            "productId": 1109081,
+            "quantity": 1,
+            "price": 166.25
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1536x864",
+        "browserViewport": "2048x1006",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-07-01T22:31:41.1462197Z"
+        }
+    }
+]

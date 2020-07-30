@@ -1,0 +1,98 @@
+[
+    {
+        "actionId": "9834175a-3312-4551-941d-0079eb797873",
+        "eventId": 24,
+        "ipAddress": "104.129.196.183",
+        "sourcePageTitle": "Cart | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/cart",
+        "timestamp": "2020-06-30T19:36:22.432Z",
+        "category": "Cart",
+        "action": "Coupon Applied",
+        "value": "12345",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO015: Cleveland (CLE)",
+        "role": "Corporate",
+        "accountNumber": "#SB14",
+        "userEmailAddress": "luciano.matt@cle.sysco.com",
+        "userId": 653033,
+        "oboUserId": 0,
+        "payload": {
+            "couponCode": 12345
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1536x864",
+        "browserViewport": "1536x754",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-30T19:36:11.6283425Z"
+        }
+    },
+    {
+        "actionId": "9834175a-3312-4551-941d-0079eb797873",
+        "eventId": 24,
+        "ipAddress": "104.129.196.183",
+        "sourcePageTitle": "Cart | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/cart",
+        "timestamp": "2020-06-30T19:36:22.432Z",
+        "category": "Cart",
+        "action": "Coupon Applied",
+        "value": "250off",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO015: Cleveland (CLE)",
+        "role": "Corporate",
+        "accountNumber": "#SB14",
+        "userEmailAddress": "luciano.matt@cle.sysco.com",
+        "userId": 653033,
+        "oboUserId": 0,
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1536x864",
+        "browserViewport": "1536x754",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-30T19:36:11.6283425Z"
+        }
+    },
+    {
+        "actionId": "9834175a-3312-4551-941d-0079eb797873",
+        "eventId": 24,
+        "ipAddress": "104.129.196.183",
+        "sourcePageTitle": "Cart | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/cart",
+        "timestamp": "2020-06-30T19:36:22.432Z",
+        "category": "Cart",
+        "action": "Coupon",
+        "value": "250off",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO015: Cleveland (CLE)",
+        "role": "Corporate",
+        "accountNumber": "#SB14",
+        "userEmailAddress": "luciano.matt@cle.sysco.com",
+        "userId": 653033,
+        "oboUserId": 0,
+        "payload": {
+            "couponCode": "250off"
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1536x864",
+        "browserViewport": "1536x754",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-30T19:36:11.6283425Z"
+        }
+    }
+]

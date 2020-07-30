@@ -1,0 +1,60 @@
+[
+    {
+        "actionId": "1940c62c-f36c-461f-8af5-9ad65a0fc078",
+        "eventId": 14,
+        "ipAddress": "174.219.18.107",
+        "sourcePageTitle": "Thunder Group® Soap Dispenser 40 oz | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/Product/1243579",
+        "timestamp": "2020-06-30T19:06:47.354Z",
+        "category": "Home",
+        "action": "View Full Description",
+        "value": "View",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO043: Montana (MT)",
+        "role": "Customer",
+        "accountNumber": "342253",
+        "userEmailAddress": "dandiego3@gmail.com",
+        "userId": 617677,
+        "oboUserId": 0,
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1536x864",
+        "browserViewport": "1536x754",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-30T19:06:37.4992403Z"
+        }
+    },
+    {
+        "actionId": "1940c62c-f36c-461f-8af5-9ad65a0fc078",
+        "eventId": 14,
+        "ipAddress": "174.219.18.107",
+        "sourcePageTitle": "Thunder Group® Soap Dispenser 40 oz | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/Product/1243579",
+        "timestamp": "2020-06-30T19:06:47.354Z",
+        "category": "PDP",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO043: Montana (MT)",
+        "role": "Customer",
+        "accountNumber": "342253",
+        "userEmailAddress": "dandiego3@gmail.com",
+        "userId": 617677,
+        "oboUserId": 0,
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1536x864",
+        "browserViewport": "1536x754",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-30T19:06:37.4992403Z"
+        }
+    }
+]

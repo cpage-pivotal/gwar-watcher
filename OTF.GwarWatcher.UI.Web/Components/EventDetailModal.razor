@@ -1,0 +1,51 @@
+﻿@using OTF.GwarWatcher.UI.Web.Models
+
+<div class="modal @(this.IsShown ? "Show" : string.Empty)" tabindex="-1" role="dialog" style="display:@(this.IsShown ? "block" : "none");">
+    <div class="modal-dialog modal-xl modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">@this.Title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" @onclick="() => Close()">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <EventDetailTable Messages="this.Messages" />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" @onclick="() => Close()">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (this.IsShown)
+{
+    <div class="modal-backdrop fade show"></div>
+}
+
+
+@code {
+    public IEnumerable<MessageModel> Messages { get; set; } = new List<MessageModel>();
+    private bool IsShown { get; set; } = false;
+    private string Title { get; set; } = string.Empty;
+
+    public void Open()
+    {
+        MessageModel header = this.Messages.FirstOrDefault();
+        this.Title = $"{header.Event.Id}. {header?.Event?.Category} - {header?.Event?.Action} ({this.Messages.Count()})";
+        this.HandleShown(true);
+    }
+
+    public void Close()
+    {
+        this.Title = string.Empty;
+        this.HandleShown(false);
+    }
+
+    private void HandleShown(bool shown)
+    {
+        this.IsShown = shown;
+        this.StateHasChanged();
+    }
+}

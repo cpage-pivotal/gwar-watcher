@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OTF.GwarWatcher.Common\OTF.GwarWatcher.Common.csproj" />
+    <ProjectReference Include="..\OTF.GwarWatcher.Elastic\OTF.GwarWatcher.Elastic.csproj" />
+    <ProjectReference Include="..\OTF.GwarWatcher.Kafka\OTF.GwarWatcher.Kafka.csproj" />
+    <ProjectReference Include="..\OTF.GwarWatcher.Models\OTF.GwarWatcher.Models.csproj" />
+    <ProjectReference Include="..\OTF.GwarWatcher.Validators\OTF.GwarWatcher.Validators.csproj" />
+  </ItemGroup>
+
+</Project>

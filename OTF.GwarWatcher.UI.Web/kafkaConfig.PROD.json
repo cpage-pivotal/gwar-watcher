@@ -1,0 +1,4 @@
+{
+    "bootstrapServers": "bpkaf01.corp.instawares.com:9092, bpkaf02.corp.instawares.com:9092, bpkaf03.corp.instawares.com:9092",
+    "topics": [ "gwar", "gwar_browsinghistory", "gwar_impressions", "gwar_search" ]
+}

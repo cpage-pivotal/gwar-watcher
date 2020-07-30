@@ -1,0 +1,266 @@
+[
+    {
+        "actionId": "e5a1488a-582b-402c-98e6-e4f58cd6313e",
+        "eventId": 21,
+        "ipAddress": "104.129.204.136",
+        "sourcePageTitle": "Cart | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/cart",
+        "timestamp": "2020-05-14T03:36:00.516Z",
+        "category": "Cart",
+        "action": "Save",
+        "value": "List_20200514223600",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO164: Gulf Coast (GC)",
+        "role": "Corporate",
+        "accountNumber": "#S268",
+        "userEmailAddress": "fofanov.jessica@gc.sysco.com",
+        "userId": 485173,
+        "oboUserId": 0,
+        "payload": [
+        ],
+        "browserName": "Chrome",
+        "browserVersion": "80",
+        "deviceCategory": "Desktop",
+        "browserSize": "1280x720",
+        "browserViewport": "1280x578",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-05-14T03:35:44.6306052Z"
+        }
+    },
+    {
+        "actionId": "e5a1488a-582b-402c-98e6-e4f58cd6313e",
+        "eventId": 21,
+        "ipAddress": "104.129.204.136",
+        "sourcePageTitle": "Cart | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/cart",
+        "timestamp": "2020-05-14T03:36:00.516Z",
+        "category": "Cart",
+        "action": "Save",
+        "value": "List_20200514223600",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO164: Gulf Coast (GC)",
+        "role": "Corporate",
+        "accountNumber": "#S268",
+        "userEmailAddress": "fofanov.jessica@gc.sysco.com",
+        "userId": 485173,
+        "oboUserId": 0,
+        "payload": [
+            {
+                "Quantity": "1",
+                "ProductID": 1243116
+            },
+            {
+                "Quantity": 1,
+                "ProductID": "1243117"
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 1243118
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 1248961
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 9801702
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 9830954
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 587249
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 1187242
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 1187246
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 1118997
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 1118929
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 1150346
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 9845155
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 9845157
+            },
+            {
+                "Quantity": 2,
+                "ProductID": 9838342
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 9838341
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 1178682
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 1178696
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 1262619
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 9826936
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 1152341
+            }
+        ],
+        "browserName": "Chrome",
+        "browserVersion": "80",
+        "deviceCategory": "Desktop",
+        "browserSize": "1280x720",
+        "browserViewport": "1280x578",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-05-14T03:35:44.6306052Z"
+        }
+    },
+    {
+        "actionId": "e5a1488a-582b-402c-98e6-e4f58cd6313e",
+        "eventId": 21,
+        "ipAddress": "104.129.204.136",
+        "sourcePageTitle": "Cart | SuppliesOnTheFly",
+        "sourcePageUrl": "https://www.suppliesonthefly.com/v3/cart",
+        "timestamp": "2020-05-14T03:36:00.516Z",
+        "category": "Home",
+        "action": "Save",
+        "value": "List_20200514223600",
+        "reporterKey": "RVA-000001",
+        "siteId": 9,
+        "component": "Analytics",
+        "opCo": "SYSCO164: Gulf Coast (GC)",
+        "role": "Corporate",
+        "accountNumber": "#S268",
+        "userEmailAddress": "fofanov.jessica@gc.sysco.com",
+        "userId": 485173,
+        "oboUserId": 0,
+        "payload": [
+            {
+                "Quantity": 1,
+                "ProductID": 1243116
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 1243117
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 1243118
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 1248961
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 9801702
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 9830954
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 587249
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 1187242
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 1187246
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 1118997
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 1118929
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 1150346
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 9845155
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 9845157
+            },
+            {
+                "Quantity": 2,
+                "ProductID": 9838342
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 9838341
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 1178682
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 1178696
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 1262619
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 9826936
+            },
+            {
+                "Quantity": 1,
+                "ProductID": 1152341
+            }
+        ],
+        "browserName": "Chrome",
+        "browserVersion": "80",
+        "deviceCategory": "Desktop",
+        "browserSize": "1280x720",
+        "browserViewport": "1280x578",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-05-14T03:35:44.6306052Z"
+        }
+    }
+]

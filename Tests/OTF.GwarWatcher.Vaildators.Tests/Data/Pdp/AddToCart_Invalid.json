@@ -1,0 +1,111 @@
+[
+    { /* No category */
+        "actionId": "dd088c91-0a6e-4f5a-866c-df2754febfee",
+        "eventId": 1,
+        "ipAddress": "10.24.0.235",
+        "sourcePageTitle": "Chef Worksr Montreal Cool VentT Chef Coat Black L | 110 Grill",
+        "sourcePageUrl": "https://110grill.suppliesonthefly.qa/v3/product/1164033",
+        "timestamp": "2020-06-15T12:42:32.81Z",
+        "category": "",
+        "action": "Add to Cart",
+        "label": "13.1",
+        "value": 1164033,
+        "reporterKey": "RVA-999998",
+        "siteId": 175,
+        "component": "Analytics",
+        "opCo": "SYSCO999: Test Opco (TEST)",
+        "role": "Customer",
+        "accountNumber": "999999",
+        "userEmailAddress": "esotana@buildtechnologygroup.com",
+        "userId": 647525,
+        "oboUserId": 0,
+        "payload": {
+            "productId": 1164033,
+            "quantity": 13.1,
+            "price": 24
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1440x900",
+        "browserViewport": "1440x789",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-15T12:42:32.8961201Z"
+        }
+    },
+    { /* Price is a string */
+        "actionId": "dd088c91-0a6e-4f5a-866c-df2754febfee",
+        "eventId": 1,
+        "ipAddress": "10.24.0.235",
+        "sourcePageTitle": "Chef Worksr Montreal Cool VentT Chef Coat Black L | 110 Grill",
+        "sourcePageUrl": "https://110grill.suppliesonthefly.qa/v3/product/1164033",
+        "timestamp": "2020-06-15T12:42:32.81Z",
+        "category": "",
+        "action": "Add to Cart",
+        "label": "13.1",
+        "value": 1164033,
+        "reporterKey": "RVA-999998",
+        "siteId": 175,
+        "component": "Analytics",
+        "opCo": "SYSCO999: Test Opco (TEST)",
+        "role": "Customer",
+        "accountNumber": "999999",
+        "userEmailAddress": "esotana@buildtechnologygroup.com",
+        "userId": 647525,
+        "oboUserId": 0,
+        "payload": {
+            "productId": 1164033,
+            "quantity": 13.1,
+            "price": "24.12"
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1440x900",
+        "browserViewport": "1440x789",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-15T12:42:32.8961201Z"
+        }
+    },
+    { /* Value is not Product ID */
+        "actionId": "dd088c91-0a6e-4f5a-866c-df2754febfee",
+        "eventId": 1,
+        "ipAddress": "10.24.0.235",
+        "sourcePageTitle": "Chef Worksr Montreal Cool VentT Chef Coat Black L | 110 Grill",
+        "sourcePageUrl": "https://110grill.suppliesonthefly.qa/v3/product/1164033",
+        "timestamp": "2020-06-15T12:42:32.81Z",
+        "category": "",
+        "action": "Add to Cart",
+        "label": "13",
+        "value": 1164033,
+        "reporterKey": "RVA-999998",
+        "siteId": 175,
+        "component": "Analytics",
+        "opCo": "SYSCO999: Test Opco (TEST)",
+        "role": "Customer",
+        "accountNumber": "999999",
+        "userEmailAddress": "esotana@buildtechnologygroup.com",
+        "userId": 647525,
+        "oboUserId": 0,
+        "payload": {
+            "productId": 1234,
+            "quantity": 13.1,
+            "price": "24.12"
+        },
+        "browserName": "Chrome",
+        "browserVersion": "83",
+        "deviceCategory": "Desktop",
+        "browserSize": "1440x900",
+        "browserViewport": "1440x789",
+        "operatingSystem": "Windows",
+        "operatingSystemVersion": "10",
+        "server": {
+            "timestamp": "2020-06-15T12:42:32.8961201Z"
+        }
+    }
+
+]
