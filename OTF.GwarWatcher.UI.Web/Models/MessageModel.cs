@@ -1,5 +1,4 @@
-﻿using Nest;
-using Core = OTF.GwarWatcher.Models;
+﻿using Core = OTF.GwarWatcher.Models;
 using OTF.GwarWatcher.Kafka.Models;
 using OTF.GwarWatcher.Validators.Core;
 using System;
