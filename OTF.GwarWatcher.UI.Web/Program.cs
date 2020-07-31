@@ -22,6 +22,13 @@ namespace OTF.GwarWatcher.UI.Web
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    // Load Kubernetes secrets file if available to load connection strings
+                    webBuilder.ConfigureAppConfiguration((hostingContext, config) =>
+                    {
+                        config.AddJsonFile("secrets/elasticConfig.json", optional: true, reloadOnChange: false);
+                        config.AddJsonFile("secrets/kafkaConfig.json", optional: true, reloadOnChange: false);
+                    });
+
                     webBuilder.UseStartup<Startup>();
                 });
     }
